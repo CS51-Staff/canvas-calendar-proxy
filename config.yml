@@ -1,13 +1,13 @@
 cs51-college-calendar:
-  ical_url: https://canvas.harvard.edu/feeds/calendars/user_3w9MZLVSEcKIApYHIUH1AMK4H8aMvSRfKoP5gnKF.ics
+  ical_url: https://canvas.harvard.edu/feeds/calendars/user_K25S2ApW2OVPxzjInXIY3rDsVcEXkSKlnISmCDuO.ics
   rules:
     - field: summary
       operator: contains
-      val: 'COMPSCI 51'
+      val: '[COMPSCI 51]'
 
-# cs51-dce-calendar:
-#   ical_url: https://canvas.harvard.edu/feeds/calendars/user_3w9MZLVSEcKIApYHIUH1AMK4H8aMvSRfKoP5gnKF.ics
-#   rules:
-#     - field: summary
-#       operator: contains
-#       val: 'COMPSCI 51'
+cs51-dce-calendar:
+  ical_url: https://canvas.harvard.edu/feeds/calendars/user_K25S2ApW2OVPxzjInXIY3rDsVcEXkSKlnISmCDuO.ics
+  rules:
+    - field: summary
+      operator: contains
+      val: '[CSCI E-51]'
