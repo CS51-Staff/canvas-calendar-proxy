@@ -10,4 +10,4 @@ cs51-dce-calendar:
   rules:
     - field: summary
       operator: contains
-      val: '[CSCI E-51]'
+      val: 'CSCI E-51'
