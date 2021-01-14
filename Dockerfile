@@ -6,5 +6,4 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install
 COPY . .
 
-EXPOSE 8000
 CMD ["/usr/local/bin/bundle", "exec", "rackup", "--host=0.0.0.0", "--port=$PORT"]
