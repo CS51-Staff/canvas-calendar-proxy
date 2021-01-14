@@ -6,4 +6,4 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install
 COPY . .
 
-CMD ["/usr/local/bin/bundle", "exec", "rackup", "--port=$PORT"]
+CMD ["/usr/local/bin/bundle", "exec", "rackup", "config.ru", "-p", "$PORT"]
