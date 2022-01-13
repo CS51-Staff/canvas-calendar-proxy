@@ -1,5 +1,5 @@
 cs51-college-calendar:
-  ical_url: https://canvas.harvard.edu/feeds/calendars/user_K25S2ApW2OVPxzjInXIY3rDsVcEXkSKlnISmCDuO.ics
+  ical_url: https://canvas.harvard.edu/feeds/calendars/user_XI6Kb9OktBmgFkOkLADOSLG25iCu83EtPeF2Ykmq.ics
   rules:
     - field: summary
       operator: contains
